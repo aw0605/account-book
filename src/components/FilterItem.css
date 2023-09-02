@@ -1,0 +1,29 @@
+.FilterItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 15px 0;
+}
+.FilterItem > div {
+  margin-right: 20px;
+}
+.FilterItem > div:last-child {
+  margin-right: 0;
+}
+.FilterItem input,
+.FilterItem select {
+  font-size: 1.125rem;
+}
+.filter-item__date {
+  display: flex;
+}
+.filter-item__date > div:first-child {
+  margin-right: 20px;
+}
+.filter-item__date > div:last-child {
+  margin-right: 0;
+}
+.filter-item__date label {
+  margin-right: 5px;
+}

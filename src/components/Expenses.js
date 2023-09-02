@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
-import FilterItem from "./components/FilterItem";
-import ExpenseList from "./components/ExpenseList";
+import FilterItem from "./FilterItem";
+import ExpenseList from "./ExpenseList";
 
 const Expenses = ({ items, options }) => {
   const [filteredItems, setFilteredItems] = useState(items);

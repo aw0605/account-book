@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./FilterItem.css";
 
 const FilterItem = ({ onFilterChange, options }) => {
   const [sortingCategory, setSortingCategory] = useState("");

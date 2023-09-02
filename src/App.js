@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import ExpenseInsert from "./components/ExpenseInsert";
-import Expenses from "./Expenses";
+import Expenses from "./components/Expenses";
 
 function App() {
   const [items, setItems] = useState([
     {
       id: Math.random().toString(),
-      name: "Item One",
+      name: "이마트에서 장보기",
       price: 23000,
       category: "식료품",
       date: new Date(2022, 2, 5),
@@ -17,7 +17,7 @@ function App() {
     },
     {
       id: Math.random().toString(),
-      name: "Item Two",
+      name: "연세이비인후과",
       price: 34000,
       category: "의료비",
       date: new Date(2022, 3, 14),
@@ -27,7 +27,7 @@ function App() {
     },
     {
       id: Math.random().toString(),
-      name: "Item Three",
+      name: "CGV 영화",
       price: 45000,
       category: "문화비",
       date: new Date(2023, 8, 25),

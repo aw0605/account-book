@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./ExpenseInsert.css";
 
 const ExpenseInsert = ({ getExpenseInsertData, options }) => {
   const [objectState, setObjectState] = useState({

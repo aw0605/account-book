@@ -1,0 +1,15 @@
+.ListItem {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.ListItem h2 {
+  margin-right: 20px;
+}
+.ListItem span {
+  margin-right: 10px;
+}
+.ListItem span.memo-text {
+  margin-right: 0;
+}
